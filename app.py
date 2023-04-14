@@ -112,7 +112,7 @@ def find_competitors(product, location):
 
     Provide an analysis of the following:
 
-    - Derive insights from the competition and reviews about its products and come up with creative insights that the client execute as part of a differentiating business strategy.
+    - From the competition and reviews about its products and come up with creative insights to recommend the client execute as part of a differentiating business strategy.
     - From there, think step by step, explain 5 strategies in bullet points of a creative and effective business plan.
     - Suggest a location for the client and explain the rationale of this location step by step.
 
