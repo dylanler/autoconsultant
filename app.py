@@ -1,3 +1,17 @@
+import os
+import gradio as gr
+from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
+from langchain.memory import ConversationBufferWindowMemory
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain
+from langchain.llms import OpenAI
+from langchain.agents import load_tools
+from langchain.agents import initialize_agent
+from langchain.chat_models import ChatOpenAI
+import openai
+import requests
+
+
 def get_location_data(search_term, location):
     # First, we get the latitude and longitude coordinates of the location
     url = "https://maps.googleapis.com/maps/api/geocode/json"
