@@ -135,7 +135,7 @@ def find_competitors(product, location):
         memory=ConversationBufferWindowMemory(k=10),
     )
 
-    output = output_str2 + chatgpt_chain.predict(human_input=prompt_input)
+    output = output_str2 + "\n\n" + chatgpt_chain.predict(human_input=prompt_input)
     
     return(output)
 
