@@ -11,6 +11,9 @@ from langchain.chat_models import ChatOpenAI
 import openai
 import requests
 
+OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
+GOOGLE_MAPS_API = os.environ['GOOGLE_MAPS_API']
+
 
 def get_location_data(search_term, location):
     # First, we get the latitude and longitude coordinates of the location
