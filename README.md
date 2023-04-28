@@ -45,6 +45,10 @@ python auto_consultant.py
 
 5. The app will return a competitor analysis, business plan, and location recommendation based on your input.
 
+## Demo
+
+https://user-images.githubusercontent.com/9219358/235098999-615aa040-4d1a-4f0d-ab00-978ca436c23f.mp4
+
 ## Configuration
 
 To modify the default settings, you can update the following variables in the auto_consultant.py file:
